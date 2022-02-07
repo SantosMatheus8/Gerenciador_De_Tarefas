@@ -1,1 +1,1 @@
-Esse é um gerenciador de tarefas simples, feito apenas com HTML, CSS básico e JavaScript básico.
+Esse é um gerenciador de tarefas simples, feito apenas com HTML, CSS básico e JavaScript básico. Nele podem ser criadas tarefas e listas de tarefas, a aplicação possui também página de cadastro e de login.
