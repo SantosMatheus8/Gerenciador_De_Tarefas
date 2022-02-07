@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleLogin.css">
+    <title>Login</title>
+    <script src="loginJavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../HTML.html"><img src="../logo.png" id="logo"></a>
+        
+        <div class="login">
+            <a href="login.html">Login</a>
+            <a>/</a>
+            <a href="../cadastro/cadastro.HTML">Cadastro</a>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <div><label for="inputEmail" class="texto">Email </label><input type="text" id="inputEmail" required placeholder="EMAIL"></div>
+            <div><label for="inputSenha" class="texto" id="labelSenha">Senha</label><input type="password" id="inputSenha" required placeholder="SENHA"></div>
+            <input type="submit" value="ENTRAR" class="enviar" onclick="login()">
+        </form>
+    </main>
+    
+</body>
+</html>

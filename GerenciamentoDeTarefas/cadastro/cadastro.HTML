@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+    <script src="cadastroJavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../HTML.html"><img src="../logo.png" id="logo"></a>
+        
+        <div class="login">
+            <a href="../login/login.HTML">Login</a>
+            <a>/</a>
+            <a href="cadastro.HTML">Cadastro</a>
+        </div>
+    </header>
+
+    <main>
+        <form class="formulario-cadastro">
+            <div><label for="inputNome" class="formulario-texto">Nome</label><input type="text" id="inputNome" class="formulario-input" required placeholder="NOME"></div>
+            <div><label for="inputEmail" class="formulario-texto">Email</label><input type="text" id="inputEmail" class="formulario-input" required placeholder="EMAIL"></div>
+            <div><label for="inputSenha" class="formulario-texto">Senha</label><input type="password" id="inputSenha" class="formulario-input" required placeholder="SENHA"></div>
+            <div id="a"><label for="inputConfirmaSenha" class="formulario-texto">Confirmar Senha</label><input type="password" id="inputConfirmaSenha" class="formulario-input" required placeholder="CONFIRMA SENHA"></div>
+            <div><input type="submit" value="CADASTRAR" class="formulario-input" id="cadastrar" onclick="realizaCadastro()"></div>
+        </form>
+    </main>
+    
+</body>
+</html>
+

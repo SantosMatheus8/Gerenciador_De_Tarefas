@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" id="logo">
+        <div class="login">
+            <a href="login/login.HTML">Login</a>
+            <a>/</a>
+            <a href="cadastro/cadastro.HTML">Cadastro</a>
+        </div>
+    </header>
+        
+        <div class="conteinerBox">
+            <section class="caixaDeTarefa">
+                <p id="textoDaCaixa">Adicionar Tarefa</p>
+                <div class="contender">
+                    <img src="simboloMais.png" id="adiciona" onclick="adicionaTarefa(this)">
+                    <input type="text" id="inputDaCaixa">
+                </div>
+            </section>
+        
+        
+        
+            <section class="addCaixaDeTarefa">
+                <p id="textoDaCaixa">Adicionar Lista de Tarefas</p>
+        
+                <img src="simboloMais.png" id="adiciona" onclick="adicionaListaDeTarefas()">             
+            </section>
+        </div>
+
+        </body>
+
+</html>

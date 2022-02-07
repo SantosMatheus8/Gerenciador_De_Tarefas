@@ -1,0 +1,126 @@
+*
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* background-color: rgba(55, 160, 233, 0.6); */
+    background: rgb(2,0,36);
+    background: linear-gradient(108deg, rgba(2,0,36,1) 0%, rgba(121,121,196,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+header
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(108deg, rgba(2,0,36,1) 0%, rgba(88,230,122,1) 0%, rgba(180,255,187,1) 100%);
+    height: 82px;
+    width: 100%;
+    padding : 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > #logo
+{
+    width: 72px;
+    height: 72px;
+    padding: 5px;
+}
+
+header > .login 
+{
+    margin-right: 2%;
+}
+.login > a
+{
+     color:black;
+}
+
+.caixaDeTarefa
+{
+    background-color: white;
+    width: 200px;
+    height: 125px;
+    margin: 1%;
+    border-radius: 8px;/*ANOTAR SOBRE ISSO*/
+}
+
+#textoDaCaixa
+{
+    font-size: 25px;
+    margin: auto 15px auto 15px;
+}
+
+#adiciona
+{
+    width: 24px;
+    height: 25px;
+}
+
+#inputDaCaixa
+{
+    height: 25px;
+    margin-left: 5px;
+}
+
+.caixaDeTarefa .contender
+{
+    margin: 60px 15px 20px 15px;
+    display: flex;
+}
+
+.conteinerBox
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.addCaixaDeTarefa
+{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+}
+.addCaixaDeTarefa > #textoDaCaixa
+{
+    font-size: 20px;
+}
+.addCaixaDeTarefa
+{
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addCaixaDeTarefa > #adiciona
+{
+    margin-left: 15px;
+}
+
+
+.adicionaTarefaConteinerJS
+{
+    width: 200px;
+    max-height: 1500px;
+    margin: 1%;
+    margin-left: 0px;
+    margin-top: 5%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.adicionaTarefaTextoJS
+{
+    margin : 5px 15px 5px 15px;
+    word-break: break-word;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}

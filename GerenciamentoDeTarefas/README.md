@@ -1,0 +1,1 @@
+Esse é um gerenciador de tarefas simples, feito apenas com HTML, CSS básico e JavaScript básico.
